@@ -1893,6 +1893,13 @@ fieldset[disabled] .form-control + .input-icon,
   opacity: 1;
   display: block\9;
 }
+
+.tagsinput .tag:hover .tagsinput-search-link {
+  color: #ffffff;
+  opacity: 1;
+  display: block\9;
+}
+
 .tagsinput input {
   background: transparent;
   border: none;
@@ -1922,6 +1929,30 @@ fieldset[disabled] .form-control + .input-icon,
   z-index: 2;
   display: none\9;
 }
+
+.tagsinput-search-link {
+  bottom: 0;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 12px;
+  opacity: 0;
+  padding: 7px 7px 5px 0;
+  position: absolute;
+  right: 0;
+  text-align: right;
+  text-decoration: none;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  display: none\9;
+}
+
+.tagsinput-search-link:before {
+  color: #ffffff;
+  content: "\e01c";
+  font-family: "Flat-UI-Icons";
+}
+
 .tagsinput-remove-link:before {
   color: #ffffff;
   content: "\e00b";

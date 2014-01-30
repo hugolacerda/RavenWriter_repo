@@ -32,6 +32,79 @@ footer {
   font-size: 20px;
 }
 
+.myItem{
+  list-style: none;
+  text-indent: 20px;
+}
+
+.panel-title{
+  width: 125px !important;
+}
+
+.topAuthor{
+  font-size: 40px;
+}
+
+#myCaption{
+  width: 300px;
+ /* float: left !important;*/
+}
+
+.mylead{
+  font-size: 20px;
+  margin-bottom: 0px !important;
+}
+
+.myImg{
+  margin-right: 10px;
+}
+
+.page-header small{
+  color: #000 !important;
+}
+
+/*#bgImg{
+  width: 240px;
+  height: inherit;
+  background-image: url("http://placehold.it/240x210&amp;text=[Profile Pic]");
+  background-repeat: no-repeat;
+}
+
+#bgImg p{
+  padding-top: 165px;
+  padding-bottom: 5px;
+  text-shadow: 1px 1px #ccc;
+}*/
+
+.mywell{
+  margin-left: 15px;
+}
+
+.mywell p{
+  margin-bottom: 0px;
+}
+
+.myItem a{
+  width: 90px !important;
+}
+
+.myrow{
+  height: 80px !important;
+  
+#myBack{
+  font-size: 13px;
+}
+
+.pager{
+  width: 200px !important;
+  margin-left: 15px !important;
+  margin-bottom: 10px !important;
+  margin-top: 0px !important;
+}
+
+#tagsinput_tagsinput{
+  margin-left: 15px;
+}
 
  * Off Canvas
  * --------------------------------------------------
@@ -68,4 +141,6 @@ footer {
     width: 50%; /* 6 columns */
   }
 }
+
+
 

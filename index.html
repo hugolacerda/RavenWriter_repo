@@ -11,7 +11,7 @@
     <!-- Loading Flat UI -->
     <link href="css/flat-ui.css" rel="stylesheet">
 
-    <link rel="shortcut icon" href="images/favicon.ico">
+    <!-- <link rel="shortcut icon" href="images/favicon.ico"> -->
     <link rel="stylesheet" type="text/css" href="css/web.css">
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
     <!--[if lt IE 9]>
@@ -46,7 +46,164 @@
 
     <div class="container">
 
-     
+      <div class="row row-offcanvas row-offcanvas-left">
+      
+        <div class="col-xs-5 col-sm-2 sidebar-offcanvas" id="sidebar" role="navigation">
+          <div class="panel-group" id="accordion">
+            <div>
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <span>Genre 1</span>
+                  <i class="pull-right glyphicon glyphicon-chevron-down accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                  </i>
+                </h4>
+              </div>
+              <ul id="collapseOne" class="panel-collapse collapse in list-group">
+                <li class="myItem"><a href="#">Sub Genre</a></li>
+                <li class="myItem"><a href="#">Sub Genre</a></li>
+                <li class="myItem"><a href="#">Sub Genre</a></li>
+                <li class="myItem"><a href="#">Sub Genre</a></li>
+                <li class="myItem"><a href="#">Sub Genre</a></li>
+                <li class="myItem"><a href="#">Sub Genre</a></li>
+              </ul>
+            </div>
+            <div>
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <span>Genre 2</span>
+                  <i class="pull-right glyphicon glyphicon-chevron-down accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                  </i>
+                </h4>
+              </div>
+              <ul id="collapseTwo" class="panel-collapse collapse in list-group">
+                <li class="myItem"><a href="#">Sub Genre</a></li>
+                <li class="myItem"><a href="#">Sub Genre</a></li>
+                <li class="myItem"><a href="#">Sub Genre</a></li>
+                <li class="myItem"><a href="#">Sub Genre</a></li>
+                <li class="myItem"><a href="#">Sub Genre</a></li>
+                <li class="myItem"><a href="#">Sub Genre</a></li>
+              </ul>
+            </div>
+            <div>
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <span>Genre 3</span>
+                  <i class="pull-right glyphicon glyphicon-chevron-down accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                  </i>
+                </h4>
+              </div>
+              <ul id="collapseOne" class="panel-collapse collapse in list-group">
+                <li class="myItem"><a href="#">Sub Genre</a></li>
+                <li class="myItem"><a href="#">Sub Genre</a></li>
+                <li class="myItem"><a href="#">Sub Genre</a></li>
+                <li class="myItem"><a href="#">Sub Genre</a></li>
+                <li class="myItem"><a href="#">Sub Genre</a></li>
+                <li class="myItem"><a href="#">Sub Genre</a></li>
+              </ul>
+            </div>
+            <div>
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <span>Genre 4</span>
+                  <i class="pull-right glyphicon glyphicon-chevron-down accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                  </i>
+                </h4>
+              </div>
+              <ul id="collapseOne" class="panel-collapse collapse in list-group">
+                <li class="myItem"><a href="#">Sub Genre</a></li>
+                <li class="myItem"><a href="#">Sub Genre</a></li>
+                <li class="myItem"><a href="#">Sub Genre</a></li>
+                <li class="myItem"><a href="#">Sub Genre</a></li>
+                <li class="myItem"><a href="#">Sub Genre</a></li>
+                <li class="myItem"><a href="#">Sub Genre</a></li>
+              </ul>
+            </div>
+          </div>
+        
+      </div> <!-- /span -->
+
+        <div class="col-xs-12 col-sm-10">
+          <p class="pull-left visible-xs">
+            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
+          </p>
+          <section class="row">
+            <div class="col-6 col-sm-6 col-lg-4">
+              
+                <h4>Author Spotlight</h4>
+                <aside id="myCaption">
+                <img class="pull-left myImg" src="http://placehold.it/100x100&amp;text=[Profile Pic]" alt="...">
+                <!-- <div class="caption"> -->
+                  <p class="lead mylead">Author Name | <small>sci-fi</small></p>
+                  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh...</p>
+                </aside>
+
+                  <p><a href="#" class="btn btn-primary" role="button">View Author's Library</a></p>
+
+                <!-- </div> -->
+              
+            </div><!--/span-->
+
+             <div class="col-10 col-sm-10 col-lg-8">
+              <h4>Literature Spotlight: Author Name</h4>
+              
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+                <small>Author's Name <cite title="Source Title">Novel Name: Chapter 1</cite></small>
+           
+              <p><a class="btn btn-default pull-right" href="#" role="button">View details &raquo;</a></p>
+            
+            </div><!--/span-->
+
+          </section>
+           <hr>
+        </hr>
+          <div class="row">
+             <div class="row">
+            <div class="col-12 col-sm-12 col-lg-11">
+              <div class="page-header">
+                <h2>Article Title | <small>Novel Name</small></h2>
+                <p class="lead">in Genre | <b>by Author</b></p>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec blandit magna in mi accumsan viverra. Phasellus ligula dolor, viverra vel magna in, dignissim gravida orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla convallis tincidunt sapien quis euismod. Integer non risus at mi tincidunt blandit tristique in neque...</p>
+              <p><a class="btn btn-default pull-right" href="#" role="button">Read This &raquo;</a></p>
+            </div><!--/span-->
+             <div class="col-12 col-sm-12 col-lg-11">
+              <div class="page-header">
+                <h2>Article Title | <small>Novel Name</small></h2>
+                <p class="lead">in Genre | <b>by Author</b></p>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec blandit magna in mi accumsan viverra. Phasellus ligula dolor, viverra vel magna in, dignissim gravida orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla convallis tincidunt sapien quis euismod. Integer non risus at mi tincidunt blandit tristique in neque...</p>
+              <p><a class="btn btn-default pull-right" href="#" role="button">Read This &raquo;</a></p>
+            </div><!--/span-->
+             <div class="col-12 col-sm-12 col-lg-11">
+              <div class="page-header">
+                 <h2>Article Title | <small>Novel Name</small></h2>
+                 <p class="lead">in Genre | <b>by Author</b></p>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec blandit magna in mi accumsan viverra. Phasellus ligula dolor, viverra vel magna in, dignissim gravida orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla convallis tincidunt sapien quis euismod. Integer non risus at mi tincidunt blandit tristique in neque...</p>
+              <p><a class="btn btn-default pull-right" href="#" role="button">Read This &raquo;</a></p>
+            </div><!--/span-->
+             <div class="col-12 col-sm-12 col-lg-11">
+              <div class="page-header">
+                 <h2>Article Title | <small>Novel Name</small></h2>
+                 <p class="lead">in Genre | <b>by Author</b> </p>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec blandit magna in mi accumsan viverra. Phasellus ligula dolor, viverra vel magna in, dignissim gravida orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla convallis tincidunt sapien quis euismod. Integer non risus at mi tincidunt blandit tristique in neque...</p>
+              <p><a class="btn btn-default pull-right" href="#" role="button">Read This &raquo;</a></p>
+            </div><!--/span-->
+             <div class="col-12 col-sm-12 col-lg-11">
+              <div class="page-header">
+                 <h2>Article Title | <small>Novel Name</small></h2>
+                 <p class="lead">in Genre | <b>by Author</b></p>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec blandit magna in mi accumsan viverra. Phasellus ligula dolor, viverra vel magna in, dignissim gravida orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla convallis tincidunt sapien quis euismod. Integer non risus at mi tincidunt blandit tristique in neque...</p>
+              <p><a class="btn btn-default pull-right" href="#" role="button">Read This &raquo;</a></p>
+            </div><!--/span-->
+          </div><!--/row-->
+          </div><!--/row-->
+        </div><!--/span-->
+
+        
+      </div><!--/row-->
 
       <hr>
 
