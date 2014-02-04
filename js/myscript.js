@@ -1,7 +1,8 @@
-$('button').toggle(
+$('.sideTog').toggle(
 
 function() {
-    $('#B').css('left', '0')
+	console.log("i'm clicked")
+    $('.block').css('left', '0')
 }, function() {
-    $('#B').css('left', '200px')
-})
+    $('.block').css('left', '-400px')
+});

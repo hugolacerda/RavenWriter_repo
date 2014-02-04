@@ -11,7 +11,7 @@ footer {
   padding: 30px 0;
 }
 
-.navbar-static-top {
+.navbar-static-top 
   margin-bottom: 30px;
 }
 
@@ -90,6 +90,7 @@ footer {
 
 .myrow{
   height: 80px !important;
+}
   
 #myBack{
   font-size: 13px;
@@ -105,6 +106,52 @@ footer {
 #tagsinput_tagsinput{
   margin-left: 15px;
 }
+
+.block{
+  position: absolute !important;
+  left: 0px;
+  width: 245px;
+  margin-left: 15px;
+}
+
+.myText{
+   /*width: 960px;*/ 
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+
 
  * Off Canvas
  * --------------------------------------------------
