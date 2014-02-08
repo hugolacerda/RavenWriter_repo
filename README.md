@@ -1,93 +1,38 @@
-Flat UI Free 2.1.1
-=======
+#FuelPHP
 
-Flat UI Free is licensed under a Creative Commons Attribution 3.0 Unported (CC BY 3.0)  (http://creativecommons.org/licenses/by/3.0/) and MIT License - http://opensource.org/licenses/mit-license.html. 
+* Version: 1.7
+* [Website](http://fuelphp.com/)
+* [Release Documentation](http://docs.fuelphp.com)
+* [Release API browser](http://api.fuelphp.com)
+* [Development branch Documentation](http://dev-docs.fuelphp.com)
+* [Development branch API browser](http://dev-api.fuelphp.com)
+* [Support Forum](http://fuelphp.com/forums) for comments, discussion and community support
 
-You are allowed to use these elements anywhere you want, however we’ll highly appreciate if you will link to our [website](http://designmodo.com).
+## Description
 
-## Links:
+FuelPHP is a fast, lightweight PHP 5.3 framework. In an age where frameworks are a dime a dozen, We believe that FuelPHP will stand out in the crowd.  It will do this by combining all the things you love about the great frameworks out there, while getting rid of the bad.
 
-+ [Demo Page](http://designmodo.github.io/Flat-UI/)
-+ [Download HTML](https://github.com/designmodo/Flat-UI/archive/master.zip) (for developers)
-+ [Download PSD](http://designmodo.com/flat-free/) (for designers)
-+ [Flat UI Pro 1.2.2](http://designmodo.com/flat/) (from $39)
+## More information
 
-## Changelog
+For more detailed information, see the [development wiki](https://github.com/fuelphp/fuelphp/wiki).
 
+##Development Team
 
-+ 2.0 Compatibility with Flat UI Pro (Less instead of Sass), Bootstrap upgraded to 2.3.1, grids refinements, various Less compiler bugfixes, Video module bugfix, various small bugfixes.
-+ + 2.1 Bootstrap upgraded to 3.0, better box model, update html5 video player to version 4.1, added components documentation and sturt-up template, various small bugfixes.
-+ + 2.1.1 Typography improved (new global variables, padding and margins changed for basic elements, global default font-size now is 18px, with a line-height of 1.722, added support for <abbr>, <address>, <code>, <pre>, right-aligned <blockquote>), Buttons module completely rewritten (new global variables, buttons now require a .btn-default for the standard version, added support for .btn-link), fixed some bugs in .navbar, mixins updated (added standard mixins from Bootstrap 3), layout updated for stylized select and dropdown menu, various small bugfixes.
+* Harro Verton - Project Manager, Developer ([http://wanwizard.eu/](http://wanwizard.eu/))
+* Frank de Jonge - Developer ([http://frenky.net/](http://frenky.net/))
 
-+ 1.0 Fixed several small IE bugs
-+ 1.1 New icons, Login screen implemented to a real HTML one. Small bug fixes and refinements.
+### Want to join?
 
+The FuelPHP development team is always looking for new team members, who are willing
+to help lift the framework to the next level, and have the commitment to not only
+produce awesome code, but also great documentation, and support to our users.
 
+You can not apply for membership. Start by sending in pull-requests, work on outstanding
+feature requests or bugs, and become active in the #fuelphp IRC channel. If your skills
+are up to scratch, we will notice you, and will ask you to become a team member.
 
-## Authors
+### Alumni
 
-**Sergey Shmidt**
-
-+ [http://shmidt.in](http://shmidt.in)
-+ [http://twitter.com/monstercritic](http://twitter.com/monstercritic)
-
-**Sergii Iurevych**
-
-+ [http://twitter.com/iurevych](http://twitter.com/iurevych)
-+ [http://github.com/iurevych](http://github.com/iurevych)
-
-## Typeface
-Flat UI Free is made using the Lato typeface, which can be downloaded for free here: http://www.google.com/webfonts/specimen/Lato
-
-##Useful Links (How To)
-
-How to Use UI Kits, Beginners Video Tips:                 [http://designmodo.com/how-to-use/](http://designmodo.com/how-to-use/)
-
-
-UI Kit Benefits:											                    [http://designmodo.com/benefits/](http://designmodo.com/benefits/)
-
-
-Create a Website using UI Packs (PSD to HTML) – Day 1: 		[http://designmodo.com/create-website-day-1](http://designmodo.com/create-website-day-1)
-
-Create a Website using UI Packs (PSD to HTML) – Day 2: 		[http://designmodo.com/create-website-day-2](http://designmodo.com/create-website-day-2)
-
-Create a Website using UI Packs (PSD to HTML) – Day 3: 		[http://designmodo.com/create-website-day-3](http://designmodo.com/create-website-day-3)
-
-Create a Website Design using The Bricks UI:				      [http://designmodo.com/website-design-bricks-ui/](http://designmodo.com/website-design-bricks-ui/)
-
-What is UI Kit and Why You Should Use it: 					      [http://designmodo.com/ui-kit-use](http://designmodo.com/ui-kit-use)
-
-How Companies can Save Time and Money Using UI Kits:		  [http://designmodo.com/save-time-money-using-ui-kits](http://designmodo.com/save-time-money-using-ui-kits)
-
-UI Kits for Developers – Prototyping and Homemade Design:	[http://designmodo.com/ui-kits-developers](http://designmodo.com/ui-kits-developers)
-
- 
-More productsfrom Designmodo:
-
-[http://designmodo.com/shop/](http://designmodo.com/shop/)
-
-
-Tutorials:
-
-[http://designmodo.com/tutorials/](http://designmodo.com/tutorials/)
-
-
-Freebies:
-
-[http://designmodo.com/freebies/](http://designmodo.com/freebies/)
-
-
-Affiliate Program (earn money): 
-
-[http://designmodo.com/affiliates/](http://designmodo.com/affiliates/)
-
-
-Social Media:
-
-Twitter: [http://www.twitter.com/designmodo](http://www.twitter.com/designmodo)
-
-Facebook: [http://www.facebook.com/designmodo](http://www.facebook.com/designmodo)
-
-RSS: [http://feeds.feedburner.com/designmodo](http://feeds.feedburner.com/designmodo)
-
-Google+: [https://www.google.com/+DesignModo](https://www.google.com/+DesignModo)
+* Jelmer Schreuder - Developer ([http://jelmerschreuder.nl/](http://jelmerschreuder.nl/))
+* Phil Sturgeon - Developer ([http://philsturgeon.co.uk](http://philsturgeon.co.uk))
+* Dan Horrigan - Founder, Developer ([http://dhorrigan.com](http://dhorrigan.com))
